@@ -1,0 +1,29 @@
+div {
+    text-align: center;
+}
+.heading{
+    font-size: 36px;
+    font-weight: bold;
+    font-style: italic;
+    margin: 25px;
+}
+.effect{
+    background-color: rgb(245, 208, 159);
+    box-shadow: 5px 10px 10px #888888;
+    padding: 10px;
+    margin-bottom: 2em;
+}
+.color{
+    background-color: burlywood;
+}
+
+@media (max-width: 767px) {
+    .show {
+        display: block;
+    }
+}
+@media (min-width: 768px) {
+    .show {
+        display: none;
+    }
+}
